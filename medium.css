@@ -1,0 +1,107 @@
+@media screen and (min-width: 620px) and (max-width: 1024px)
+{
+
+    nav img
+    {
+    display:block;
+    width:calc(2vw + 4rem);
+    } 
+    nav  
+    {
+        padding:2rem;
+    }
+    .hero-image
+    {
+    background-image: url(images/idukkimed.png);
+       
+    }
+
+    .aboutus-img-container
+    {
+        width:60%;
+    }
+
+    .aboutus-txt-container
+    {
+        width:80%;
+    }
+    .aboutimg
+    {
+        max-width:80%;
+    }
+
+    .abouttxt
+    {
+    width:76%;
+    }
+
+    .aboutheading
+    {
+        font-size:calc(2vw + 2.4rem);
+    }
+    .abouttxt
+    {
+    font-size:calc(1vw + 1.2rem);
+
+    }
+
+    .destination-details-img>img
+    {
+        width:74%;
+        min-height:40vw;
+        max-height:46vw;
+    }
+
+    .destinations-details{
+        padding:calc(1rem + 1vw);
+
+    }
+
+    .destination-details-txt
+    {
+        width:86%;
+        margin:auto;
+    }
+
+    #places
+    {
+        margin-top:calc(4rem + 4vw)
+    }
+
+    .destination-details-txt>h2
+    {
+        text-align:center;
+    }
+
+    .contact-link
+    {
+        width:40%;
+   justify-content:space-between;
+
+    }
+
+    @media screen and (min-width: 820px) and (max-width: 1024px)
+    {
+        .aboutus-txt-container
+    {
+        width:80%;
+    }
+    
+    .destinations-details
+    {
+        width:72%;
+    }
+    .footer
+    {
+        flex-direction:row;
+    }
+    .footer>a>img{
+        float:left;
+    }
+    .contact-link>li
+{
+    font-size:calc(2rem + 1.6vw);
+}
+}
+}
+
