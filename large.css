@@ -76,7 +76,7 @@
 
 .contact-link
     {
-        width:40%;
+        width:30%;
    justify-content:space-between;
 
     }
@@ -84,6 +84,10 @@
 {
     font-size:calc(2rem + 1vw);
 }
+    .footer>a>
+    {
+        width:60%;
+    }
 
     .footer>a>img{
         float:left;
